@@ -3,10 +3,6 @@ $maxage=4;
 
 header("Cache-Control: public, s-maxage=".$maxage);
 
-function rand_color() {
-    return sprintf('#%06X', mt_rand(0, 0xFFFFFF));
-}
-
 ?>
 <html>
 <style>
@@ -21,20 +17,20 @@ function rand_color() {
 }
 
 </style>
-<body style="background-color:<?php echo rand_color(); ?>">
+<body>
   <H1> <b>BODY HTML (maxage: <?php echo $maxage ?>):</b>  <?php echo date("h:i:s"); ?> </h1>
 
   <header>
-    <esi:include src="/esi-test/header.php" />
+    <esi:include src="/esi-example/header.php" />
   </header>
 
 
   <main>
-    <esi:include src="/esi-test/main.php" />
+    <esi:include src="/esi-example/main.php" />
   </main>
 
   <footer>
-    <esi:include src="/esi-test/footer.php" />
+    <esi:include src="/esi-example/footer.php" />
   </footer>
 
 </body>
