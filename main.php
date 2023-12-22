@@ -24,9 +24,9 @@ $lipsum = new LoremIpsum();
     <section id="services" >
       <h2>Our Services</h2>
       <ul>
-        <li>Web Design</li>
-        <li>Web Development</li>
-        <li>Search Engine Optimization</li>
+        <li>Web Design <?php echo $lipsum->words(3); ?></li>
+        <li>Web Developmen <?php echo $lipsum->words(3); ?>t</li>
+        <li>Search Engine Optimization  <?php echo $lipsum->words(3); ?></li>
       </ul>
     </section>
     <?php echo $lipsum->sentences(5); ?>

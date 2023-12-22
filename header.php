@@ -10,6 +10,7 @@ function rand_color() {
 }
 
 $lipsum = new LoremIpsum();
+$lipsum->words(3);
 ?>
 
 <div style="border-style:dotted;  margin: 20px;" >
@@ -18,9 +19,9 @@ $lipsum = new LoremIpsum();
     <h1>Welcome to My Web Page</h1>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About <?php echo $lipsum->words(3); ?></a></li>
+        <li><a href="#services">Services <?php echo $lipsum->words(3); ?></a></li>
+        <li><a href="#contact">Contact <?php echo $lipsum->words(3); ?></a></li>
       </ul>
     </nav>
     <?php echo $lipsum->sentences(5); ?>

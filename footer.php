@@ -11,13 +11,14 @@ function rand_color() {
 }
 
 $lipsum = new LoremIpsum();
+$lipsum->words(5);
 ?>
 
 <div style="border-style:dotted;  margin: 20px;" >
   <h1> <b>FRAGMENT FOOTER (maxage: <?php echo $maxage ?>)</b>: <?php echo date("h:i:s"); ?> </h1>
   <div style="background-color: red; ?>">
   <section id="footer" >
-        <p>&copy; 2021 My Web Page. All rights reserved.</p>
+        <p>&copy; 2021 My Web Page. All rights reserved. <?php echo $lipsum->words(5); ?></p>
         <address>Milan, Italy<br>
           Phone: (123) 456-7890<br>
           Email: info@mywebpage.com

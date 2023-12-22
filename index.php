@@ -1,5 +1,5 @@
 <?php 
-$maxage=4;
+$maxage=3600;
 
 header("Cache-Control: public, s-maxage=".$maxage);
 
