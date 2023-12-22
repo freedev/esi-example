@@ -83,7 +83,7 @@ To check that Apache 2 is running successfully run:
 
 You should see something like this:
 
-    varnishd  96540 damorev    4u  IPv4 0xfa65b9e622dd95f9      0t0  TCP *:8080 (LISTEN)
-    varnishd  96540 damorev    7u  IPv4 0xfa65b9e624653729      0t0  TCP 127.0.0.1:2000 (LISTEN)
-    varnishd  96555 damorev    4u  IPv4 0xfa65b9e622dd95f9      0t0  TCP *:8080 (LISTEN)
+    varnishd  96540 youruser    4u  IPv4 0xfa65b9e622dd95f9      0t0  TCP *:8080 (LISTEN)
+    varnishd  96540 youruser    7u  IPv4 0xfa65b9e624653729      0t0  TCP 127.0.0.1:2000 (LISTEN)
+    varnishd  96555 youruser    4u  IPv4 0xfa65b9e622dd95f9      0t0  TCP *:8080 (LISTEN)
 
