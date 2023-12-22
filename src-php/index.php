@@ -21,16 +21,16 @@ header("Cache-Control: public, s-maxage=".$maxage);
   <H1> <b>BODY HTML (maxage: <?php echo $maxage ?>):</b>  <?php echo date("h:i:s"); ?> </h1>
 
   <header>
-    <esi:include src="/esi-example/header.php" />
+    <esi:include src="header.php" />
   </header>
 
 
   <main>
-    <esi:include src="/esi-example/main.php" />
+    <esi:include src="main.php" />
   </main>
 
   <footer>
-    <esi:include src="/esi-example/footer.php" />
+    <esi:include src="footer.php" />
   </footer>
 
 </body>
