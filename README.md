@@ -87,3 +87,6 @@ You should see something like this:
     varnishd  96540 youruser    7u  IPv4 0xfa65b9e624653729      0t0  TCP 127.0.0.1:2000 (LISTEN)
     varnishd  96555 youruser    4u  IPv4 0xfa65b9e622dd95f9      0t0  TCP *:8080 (LISTEN)
 
+Now you can copy the folder `src-php` in `/opt/homebrew/var/www/` and follow the link
+
+    http://localhost:8080/src-php/
