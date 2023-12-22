@@ -14,7 +14,7 @@ $lipsum->words(3);
 ?>
 
 <div style="border-style:dotted;  margin: 20px;" >
-  <h1> <b>FRAGMENT HEADER (maxage: <?php echo $maxage ?>)</b>: <?php echo date("h:i:s"); ?> </h1>
+  <h1> <b>FRAGMENT HEADER (s-maxage: <?php echo $maxage ?>)</b>: <?php echo date("h:i:s"); ?> </h1>
   <div style="background-color: yellow; ?>">
     <h1>Welcome to My Web Page</h1>
     <nav>

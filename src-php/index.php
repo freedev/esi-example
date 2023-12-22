@@ -18,7 +18,7 @@ header("Cache-Control: public, s-maxage=".$maxage);
 
 </style>
 <body>
-  <H1> <b>BODY HTML (maxage: <?php echo $maxage ?>):</b>  <?php echo date("h:i:s"); ?> </h1>
+  <H1> <b>BODY HTML (s-maxage: <?php echo $maxage ?>):</b>  <?php echo date("h:i:s"); ?> </h1>
 
   <header>
     <esi:include src="header.php" />

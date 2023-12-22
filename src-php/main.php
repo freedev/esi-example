@@ -15,7 +15,7 @@ $lipsum = new LoremIpsum();
 
 ?>
 <div style="border-style:dotted; margin: 20px;" >
-  <h1> <b>FRAGMENT MAIN (maxage: <?php echo $maxage ?>)</b>: <?php echo date("h:i:s"); ?> </h1>
+  <h1> <b>FRAGMENT MAIN (s-maxage: <?php echo $maxage ?>)</b>: <?php echo date("h:i:s"); ?> </h1>
   <div style="background-color:<?php echo rand_color(); ?>">
     <section id="about" >
       <h2>About Us</h2>
