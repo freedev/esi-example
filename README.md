@@ -90,3 +90,5 @@ You should see something like this:
 Now you can copy the folder `src-php` in `/opt/homebrew/var/www/` and follow the link
 
     http://localhost:8080/src-php/
+
+![index.php](https://github.com/freedev/esi-example/blob/main/index-php.png?raw=true)
