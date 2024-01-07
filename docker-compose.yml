@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  varnish:
+    build: ./varnish
+    ports:
+      - 8080:80
+    networks:
+      - frontend
+
+  php-apache:
+    build: ./php-apache
+    ports:
+      - 8081:8081
+    networks:
+      - frontend
+
+networks:
+  frontend:
