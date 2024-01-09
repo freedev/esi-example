@@ -1,8 +1,9 @@
 ESI Edge Side Includes example 
 ==============================
 
-Draft: [Edge Side Includes](https://en.wikipedia.org/wiki/Edge_Side_Includes) (ESI) is a small markup language for edge level dynamic web content assembly. The purpose of ESI is to tackle the problem of web infrastructure scaling.[1] It is an application of edge computing.
+This is an example about ESI Edge Side Includes. The example has made using two docker containers: apache-php and varnish
 
+[Edge Side Includes](https://en.wikipedia.org/wiki/Edge_Side_Includes) (ESI) is a small markup language for edge level dynamic web content assembly. The purpose of ESI is to tackle the problem of web infrastructure scaling.[1] It is an application of edge computing.
 
 ## What are the ESI tags
 The ESI tags were introduced by Akamai to add some dynamic tags and only re-render these parts on the server-side. The goal of that is to render only specific parts. For example, we want to render a full e-commerce webpage but only the cart is user-dependent. So we could render the "static" parts and store with a predefined TTL (e.g. 60 minutes), and only the cart would be requested to render the block.
