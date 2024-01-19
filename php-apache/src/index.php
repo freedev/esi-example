@@ -24,7 +24,6 @@ header("Cache-Control: public, s-maxage=".$maxage);
     <esi:include src="header.php" />
   </header>
 
-
   <main>
     <esi:include src="main.php" />
   </main>
