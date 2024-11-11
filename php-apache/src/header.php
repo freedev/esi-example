@@ -2,8 +2,8 @@
 
 require_once("LoremIpsum.php");
 
-$maxage=0;
-header("Cache-Control: no-cache, must-revalidate, s-maxage=".$maxage); //HTTP 1.1
+$maxage=5;
+header("Cache-Control: public, s-maxage=".$maxage."cache-maxage=".$maxage); //HTTP 1.1
 
 function rand_color() {
   return sprintf('#%06X', mt_rand(0, 0xFFFFFF));

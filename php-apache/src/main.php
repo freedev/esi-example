@@ -4,7 +4,7 @@ require_once("LoremIpsum.php");
 
 $maxage=30;
 
-header("Cache-Control: public, s-maxage=".$maxage); 
+header("Cache-Control: public, s-maxage=".$maxage." cache-maxage=".$maxage); 
 
 function rand_color() {
   // return sprintf('#%06X', mt_rand(0, 0xFFFFFF));
